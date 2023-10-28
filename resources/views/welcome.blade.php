@@ -133,7 +133,7 @@
                             <img src="{{url('public/media/bg/agribgg.jpg')}}" alt="">
 
                             <div class="about-experience">
-                                <h3>YeSS</h3>
+                                <h3>YAA</h3>
                                 <p>Young Ambbasador Agriculture 2023</p>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                         <div class="about-content">
                             <p class="mb-45 wow fadeInUp" data-wow-delay=".6s"
                                 style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                
+                                kegiatan pemilihan dan pelatihan petani/pengusaha muda sektor pertanian dari seluruh Indonesia untuk dapat menjadi duta Program YESS dengan tujuan mempromosikan dan mengajak kaum muda di wilayah Program YESS untuk terlibat secara aktif di sektor pertanian.
                             </p>
                             <div class="counter-up wow fadeInUp" data-wow-delay=".5s"
                                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">

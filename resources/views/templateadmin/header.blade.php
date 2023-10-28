@@ -36,12 +36,9 @@
                 <!-- Search -->
                 <!-- ============================================================== -->
                 <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark"
-                        href="javascript:void(0)"><i class="mdi mdi-magnify me-1"></i> <span
-                            class="font-16">Search</span></a>
-                    <form class="app-search position-absolute">
-                        <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i
-                                class="mdi mdi-window-close"></i></a>
-                    </form>
+                        href="javascript:void(0)"> <span
+                            class="font-16">Young Ambasador Agriculture 2023</span></a>
+                    
                 </li>
             </ul>
             <!-- ============================================================== -->
@@ -57,11 +54,16 @@
                         <img src="{{asset('public/media/logo/people.png')}}" alt="user" class="rounded-circle" width="31">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end user-dd animated" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i>
+                        <a class="dropdown-item" href="{{url('admin/profile')}}"><i class="ti-user m-r-5 m-l-5"></i>
                             My Profile</a>
                    
-                        <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i>
+                        <a class="dropdown-item"  href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="mdi mdi-logout m-r-5 m-l-5"></i>
                            Logout</a>
+                           <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
                     </ul>
                 </li>
                 <!-- ============================================================== -->

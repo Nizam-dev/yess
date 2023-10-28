@@ -35,10 +35,10 @@
                                 <td>{{$ambasador->email}}</td>
                                 <td>{{$ambasador->provinsi}}</td>
                                 <td>
-                                <a href="{{url('admin/ambasador/edit/'.$ambasador->id)}}" class="btn btn-sm btn-warning">
+                                <a href="{{url('admin/ambasador/edit/'.$ambasador->id)}}" class="mt-1 btn btn-sm btn-warning">
                                         <i class="fa fa-edit"></i>
                                     </a>
-                                    <a href="{{url('admin/ambasador/delete/'.$ambasador->id)}}" class="btn btn-sm btn-danger">
+                                    <a href="{{url('admin/ambasador/delete/'.$ambasador->id)}}" class="mt-1 btn btn-sm btn-danger">
                                         <i class="fa fa-trash"></i>
                                     </a>
                                 </td>

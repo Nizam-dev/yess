@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('public/media/logo/yess.png')}}">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- ========================= CSS here ========================= -->
@@ -78,6 +78,11 @@
                                 <li class="nav-item">
                                     <a class="page-scroll {{request()->is('kegiatan*') ? 'active' : ''}}" href="{{url('kegiatan')}}">Galery</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll btn btn-sm btn-success py-3 text-white" href="{{url('login')}}">
+                                        Login
+                                    </a>
+                                </li>
                             </ul>
                             <!-- <form action="#" class="search-form">
                                 <input type="text" placeholder="Search">
@@ -101,8 +106,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
                         <a href="index.html" class="logo mb-30"><img src="{{asset('public/media/logo/yess.png')}}" alt="logo"></a>
-                        <p class="mb-30 footer-desc">We Crafted an awesome desig library that is robust and intuitive to
-                            use. No matter you're building a business presentation websit.</p>
+                        <p class="mb-30 footer-desc">Young Ambbasador Agriculture 2023.</p>
                     </div>
                 </div>
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
